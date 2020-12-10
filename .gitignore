@@ -1,0 +1,121 @@
+## FLUTTER
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.classpath
+.project
+.settings/
+.vscode/
+
+# Flutter repo-specific
+/bin/cache/
+/bin/internal/bootstrap.bat
+/bin/internal/bootstrap.sh
+/bin/mingit/
+/dev/benchmarks/mega_gallery/
+/dev/bots/.recipe_deps
+/dev/bots/android_tools/
+/dev/devicelab/ABresults*.json
+/dev/docs/doc/
+/dev/docs/flutter.docs.zip
+/dev/docs/lib/
+/dev/docs/pubspec.yaml
+/dev/integration_tests/**/xcuserdata
+/dev/integration_tests/**/Pods
+/packages/flutter/coverage/
+version
+analysis_benchmark.json
+
+# packages file containing multi-root paths
+.packages.generated
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/generated_plugin_registrant.dart
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+
+# Android related
+**flutter_book_app/android/**/gradle-wrapper.jar
+**flutter_book_app/android/.gradle
+**flutter_book_app/android/captures/
+**flutter_book_app/android/gradlew
+**flutter_book_app/android/gradlew.bat
+**flutter_book_app/android/local.properties
+**flutter_book_app/android/**/GeneratedPluginRegistrant.java
+**flutter_book_app/android/key.properties
+*flutter_book_app/.jks
+
+# iOS/XCode related
+**flutter_book_app/ios/**/*.mode1v3
+**flutter_book_app/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**flutter_book_app/ios/**/*.pbxuser
+**flutter_book_app/ios/**/*.perspectivev3
+**flutter_book_app/ios/**/*sync/
+**flutter_book_app/ios/**/.sconsign.dblite
+**flutter_book_app/ios/**/.tags*
+**flutter_book_app/ios/**/.vagrant/
+**flutter_book_app/ios/**/DerivedData/
+**flutter_book_app/ios/**/Icon?
+**flutter_book_app/ios/**/Pods/
+**flutter_book_app/ios/**/.symlinks/
+**flutter_book_app/ios/**/profile
+**flutter_book_app/ios/**/xcuserdata
+**flutter_book_app/ios/.generated/
+**flutter_book_app/ios/Flutter/.last_build_id
+**flutter_book_app/ios/Flutter/App.framework
+**flutter_book_app/ios/Flutter/Flutter.framework
+**flutter_book_app/ios/Flutter/Flutter.podspec
+**flutter_book_app/ios/Flutter/Generated.xcconfig
+**flutter_book_app/ios/Flutter/app.flx
+**flutter_book_app/ios/Flutter/app.zip
+**flutter_book_app/ios/Flutter/flutter_assets/
+**flutter_book_app/ios/Flutter/flutter_export_environment.sh
+**flutter_book_app/ios/ServiceDefinitions.json
+**flutter_book_app/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Coverage
+coverage/
+
+# Symbols
+app.*.symbols
+
+# Exceptions to above rules.
+!**flutter_book_app/ios/**/default.mode1v3
+!**flutter_book_app/ios/**/default.mode2v3
+!**flutter_book_app/ios/**/default.pbxuser
+!**flutter_book_app/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+!/dev/ci/**/Gemfile.lock
+
+## JS
+js-book-app/node_modules/
